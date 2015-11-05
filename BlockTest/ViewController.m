@@ -22,7 +22,7 @@ const NSString *WCode = @"hohohhoho";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    //sfsfsf
     self.view.backgroundColor = [UIColor lightGrayColor];
     
     bt = [UIButton buttonWithType:UIButtonTypeRoundedRect];
