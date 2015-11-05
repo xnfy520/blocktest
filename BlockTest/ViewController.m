@@ -16,7 +16,7 @@ const NSString *WCode = @"hohohhoho";
 @end
 
 @implementation ViewController
-{//
+{//ssssss
     UIButton *bt;
 }
 
