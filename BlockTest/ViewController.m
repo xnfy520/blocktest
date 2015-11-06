@@ -32,7 +32,7 @@ const NSString *WCode = @"hohohhoho";
     [bt setTitle:@"next" forState:UIControlStateNormal];
     
     [self.view addSubview:bt];
-    NSLog(@"---ssssss");
+    NSLog(@"---ssssssssss");
     [bt addTarget:self action:@selector(nextView:) forControlEvents:UIControlEventTouchUpInside];
     
     // Do any additional setup after loading the view, typically from a nib.
