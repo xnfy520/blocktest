@@ -43,7 +43,7 @@
 - (void)submits
 {
     if (self.returnTextBlock != nil) {
-        NSLog(@"aa");
+        NSLog(@"aasefsefsfs");
         self.returnTextBlock(tf.text);
     }
     [self.navigationController popViewControllerAnimated:YES];
