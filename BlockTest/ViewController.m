@@ -26,13 +26,13 @@ const NSString *WCode = @"hohohhoho";
     self.view.backgroundColor = [UIColor lightGrayColor];
     
     bt = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    NSLog(@"hahhohohssss");
+    NSLog(@"hahhohohsssssefsfsf");
     bt.frame = CGRectMake(100, 100, 100, 100);
     
     [bt setTitle:@"next" forState:UIControlStateNormal];
     
     [self.view addSubview:bt];
-    NSLog(@"---ssssssssss");
+    NSLog(@"---sssssssssssefsfsefsfesfs");
     [bt addTarget:self action:@selector(nextView:) forControlEvents:UIControlEventTouchUpInside];
     
     // Do any additional setup after loading the view, typically from a nib.
@@ -46,10 +46,10 @@ const NSString *WCode = @"hohohhoho";
     
     
     [nv returnText:^(NSString *showText) {
-        NSLog(@"????");
+        NSLog(@"????sefsfsefsf");
         [UIColor whiteColor];
         [UIImage imageNamed:@"<#string#>"];
-        NSLog(@"what are you doing");
+        NSLog(@"what are you doing sefsefesfsef");
         [bt setTitle:showText forState:UIControlStateNormal];
     }];
 }
