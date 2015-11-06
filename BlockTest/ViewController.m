@@ -26,7 +26,7 @@ const NSString *WCode = @"hohohhoho";
     self.view.backgroundColor = [UIColor lightGrayColor];
     
     bt = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    
+    NSLog(@"hahhohoh");
     bt.frame = CGRectMake(100, 100, 100, 100);
     
     [bt setTitle:@"next" forState:UIControlStateNormal];
@@ -47,6 +47,9 @@ const NSString *WCode = @"hohohhoho";
     
     [nv returnText:^(NSString *showText) {
         NSLog(@"????");
+        [UIColor whiteColor];
+        [UIImage imageNamed:@"<#string#>"];
+        
         [bt setTitle:showText forState:UIControlStateNormal];
     }];
 }
