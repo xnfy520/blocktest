@@ -51,7 +51,7 @@
 
 - (void)returnText:(ReturnTextBlock)block
 {
-    NSLog(@"bb");
+    NSLog(@"bb----");
     self.returnTextBlock = block;
 }
 
