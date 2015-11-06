@@ -26,7 +26,7 @@ const NSString *WCode = @"hohohhoho";
     self.view.backgroundColor = [UIColor lightGrayColor];
     
     bt = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    NSLog(@"hahhohoh");
+    NSLog(@"hahhohohssss");
     bt.frame = CGRectMake(100, 100, 100, 100);
     
     [bt setTitle:@"next" forState:UIControlStateNormal];
