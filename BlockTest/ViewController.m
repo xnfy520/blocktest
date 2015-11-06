@@ -49,7 +49,7 @@ const NSString *WCode = @"hohohhoho";
         NSLog(@"????");
         [UIColor whiteColor];
         [UIImage imageNamed:@"<#string#>"];
-        
+        NSLog(@"what are you doing");
         [bt setTitle:showText forState:UIControlStateNormal];
     }];
 }
